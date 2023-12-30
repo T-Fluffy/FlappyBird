@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
         score = 0;
         scoreText.text = score.ToString();
         playButton.SetActive(false);
-        gameObject.SetActive(false);
+        gameOver.SetActive(false);
         Time.timeScale = 1f;
         player.enabled = true;
         Pipes[] pipes = FindObjectsOfType<Pipes>();
@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     }
     public void GameOver()
     {
-        gameObject.SetActive(true);
+        gameOver.SetActive(true);
         playButton.SetActive(true);
         Pause();
         player.GetComponent<SpriteRenderer>().sprite = deadPlayer;

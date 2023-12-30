@@ -3,7 +3,7 @@
 public class Parallax : MonoBehaviour
 {
     private MeshRenderer meshrenderrer;
-    public  float aniamtionSpeed = 1f;
+    public  float animationSpeed = 1f;
 
     private void Awake()
     {
@@ -11,6 +11,6 @@ public class Parallax : MonoBehaviour
     }
     private void Update()
     {
-        meshrenderrer.material.mainTextureOffset += new Vector2(aniamtionSpeed * Time.deltaTime, 0);
+        meshrenderrer.material.mainTextureOffset += new Vector2(animationSpeed * Time.deltaTime, 0);
     }
 }

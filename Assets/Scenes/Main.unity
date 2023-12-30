@@ -682,7 +682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b4dbba68c09e2042903603fde370b86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aniamtionSpeed: 1
+  animationSpeed: 1
 --- !u!61 &817244120
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -801,7 +801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b4dbba68c09e2042903603fde370b86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aniamtionSpeed: 0.09
+  animationSpeed: 1
 --- !u!1 &1365680160
 GameObject:
   m_ObjectHideFlags: 0
